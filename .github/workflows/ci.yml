@@ -51,4 +51,4 @@ jobs:
           context: .
           file: ./dockerfile
           push: true
-          tags: kromanub/usecases_capia:latest
+          tags: kromanub/usecase_telco_churn_prediction:latest
