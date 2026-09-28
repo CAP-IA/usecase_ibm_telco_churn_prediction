@@ -424,7 +424,7 @@ with gr.Blocks(title="Telco Churn Predictor", fill_width=True) as demo:
             <a href="https://www.u-bordeaux.fr/universite/notre-strategie/nos-leviers/cma-competences-et-metiers-davenir/cap-ia"
             target="_blank" rel="noopener noreferrer"><strong>CAP IA</strong></a>.
             The source code is available on
-            <a href="https://github.com/cap-ia/test_usecase_churn_telco"
+            <a href="https://github.com/cap-ia/usecase_telco_churn_prediction"
             target="_blank" rel="noopener noreferrer">GitHub</a>
             and released under the
             <a href="https://opensource.org/license/mit" target="_blank" rel="noopener noreferrer">MIT License</a>.
