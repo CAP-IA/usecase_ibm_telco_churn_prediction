@@ -1,0 +1,36 @@
+# Environnements Python
+.venv*/
+venv/
+env/
+
+# Caches et résultats des tests
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage*
+htmlcov/
+.ipynb_checkpoints/
+
+# Fichiers locaux
+.DS_Store
+.vscode/
+.idea/
+.env
+.env.*
+!.env.example
+
+# Données et artefacts générés
+/data/
+/mlruns/
+/mlartifacts/
+/artifacts/
+/mlflow.db*
+/.gradio/flagged/
+
+# Modèle exporté et inclus dans l'image Docker
+!/model/
+!/model/**
+
+# Ne pas conserver les caches présents dans le modèle exporté
+/model/**/__pycache__/
+/model/**/*.py[cod]

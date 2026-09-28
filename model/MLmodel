@@ -1,0 +1,49 @@
+artifact_path: /home/kroman/Documents/GIT Code Usecases/usecase_churn_telco/mlruns/1/models/m-554dca0463ef4f918421a7509fcac80c/artifacts
+flavors:
+  python_function:
+    code: code
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.12.3
+  sklearn:
+    code: code
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+is_signature_from_type_hint: false
+mlflow_version: 3.16.0
+model_id: m-554dca0463ef4f918421a7509fcac80c
+model_size_bytes: 474307
+model_uuid: m-554dca0463ef4f918421a7509fcac80c
+prompts: null
+run_id: 32ff7585504e40daa502c7cb9df8e9c0
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "string", "name": "gender", "required": true}, {"type": "string",
+    "name": "SeniorCitizen", "required": true}, {"type": "string", "name": "Partner",
+    "required": true}, {"type": "string", "name": "Dependents", "required": true},
+    {"type": "long", "name": "tenure", "required": true}, {"type": "string", "name":
+    "PhoneService", "required": true}, {"type": "string", "name": "MultipleLines",
+    "required": true}, {"type": "string", "name": "InternetService", "required": true},
+    {"type": "string", "name": "OnlineSecurity", "required": true}, {"type": "string",
+    "name": "OnlineBackup", "required": true}, {"type": "string", "name": "DeviceProtection",
+    "required": true}, {"type": "string", "name": "TechSupport", "required": true},
+    {"type": "string", "name": "StreamingTV", "required": true}, {"type": "string",
+    "name": "StreamingMovies", "required": true}, {"type": "string", "name": "Contract",
+    "required": true}, {"type": "string", "name": "PaperlessBilling", "required":
+    true}, {"type": "string", "name": "PaymentMethod", "required": true}, {"type":
+    "double", "name": "MonthlyCharges", "required": true}, {"type": "double", "name":
+    "TotalCharges", "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-09-24 11:53:41.275826'

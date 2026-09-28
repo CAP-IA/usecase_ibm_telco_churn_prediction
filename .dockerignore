@@ -1,0 +1,13 @@
+.git/
+.venv*/
+venv/
+env/
+**/__pycache__/
+**/*.py[cod]
+mlflow.db
+mlruns/
+artifacts/
+data/
+notebooks/
+tests/
+.gradio/

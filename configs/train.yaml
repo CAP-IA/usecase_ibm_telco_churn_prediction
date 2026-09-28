@@ -1,0 +1,8 @@
+data_path: data/external/Telco-Customer-Churn.csv
+test_size: 0.2
+random_state: 42
+threshold: 0.35
+trials: 30
+folds: 5
+experiment_name: telco_churn_lightgbm
+model_name: telco_churn_lightgbm_woe

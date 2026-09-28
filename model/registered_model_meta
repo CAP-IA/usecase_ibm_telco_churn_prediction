@@ -1,0 +1,2 @@
+model_name: telco_churn_lightgbm_woe
+model_version: '4'
