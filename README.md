@@ -137,5 +137,4 @@ The Docker image includes `model/` and serves the API and Gradio interface on po
 - [How to explore the notebook and its original experiments](notebooks/README.md)
 - [MIT licence](LICENSE)
 
-
 Copyright © 2026 CAP IA
