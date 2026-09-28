@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://test-usecase-churn-telco.onrender.com/churn-predictor_demo_cap-ia/">Telco Customer Churn Predictor</a>
+  <a href="https://usecase_telco_churn_prediction.onrender.com/churn-predictor_demo_cap-ia/">Telco Customer Churn Predictor</a>
 </h1>
 
 <p align="center">
