@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="https://usecase_telco_churn_prediction.onrender.com/churn-predictor_demo_cap-ia/">Telco Customer Churn Predictor</a>
+  <a href="https://usecases-capia-latest.onrender.com/churn-predictor_demo_cap-ia/">Telco Customer Churn Predictor</a>
 </h1>
 
 <p align="center">
@@ -140,4 +140,4 @@ The Docker image includes `model/` and serves the API and Gradio interface on po
 - [How to explore the notebook and its original experiments](notebooks/README.md)
 - [MIT licence](LICENSE)
 
-Copyright © 2026 CAP IA
+Copyright © 2026 [CAP IA](https://www.u-bordeaux.fr/universite/notre-strategie/nos-leviers/cma-competences-et-metiers-davenir/cap-ia)
