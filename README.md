@@ -19,9 +19,12 @@
 
 <hr>
 
-An end-to-end MLOps project for predicting customer churn in the telecommunications sector. It transforms raw account and service data, applies the preprocessing fitted during training and uses LightGBM to estimate the probability of churn. FastAPI exposes the prediction API and hosts an interactive Gradio demo. The application runs on Render using a Docker image built and pushed to Docker Hub by GitHub Actions.
+An end-to-end MLOps project that predicts customer churn from telecommunications account and service data. The training pipeline uses Weight of Evidence (WOE) encoding for categorical features, optimizes LightGBM hyperparameters with Optuna, and uses MLflow to track training runs and register the model. For predictions, the application loads the fitted preprocessing and model to estimate a customer’s probability of churn. FastAPI provides the prediction API and hosts an interactive Gradio demo.
 
-Categorical features are encoded using Weight of Evidence (WOE), LightGBM hyperparameters are optimized with Optuna and MLflow tracks training runs and registers the trained model. This is an educational demonstration based on the Telco Customer Churn dataset, its predictions are not intended to guide decisions about individual customers.
+GitHub Actions runs the tests, builds a Docker image from the project’s Dockerfile and pushes it to Docker Hub. Render deploys that image to serve the application. Click the linked title at the top of this README to open the live demo.
+
+This project is an educational demonstration based on the Telco Customer Churn dataset. Its predictions are not intended to guide decisions about individual customers.
+
 
 ## What is in the repository?
 
