@@ -1,19 +1,34 @@
-<h1 align="center">
-  <a href="https://usecase-telco-churn-prediction-latest.onrender.com/churn-predictor_demo_cap-ia/">Telco Customer Churn Predictor</a>
-</h1>
+
+<h1 align="center">Telco Customer Churn Predictor</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&amp;logo=fastapi&amp;logoColor=white" alt="FastAPI">
-  <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&amp;logo=gradio&amp;logoColor=white" alt="Gradio">
+  An end-to-end MLOps application for predicting customer churn
+  with explainable machine learning.
+</p>
+
+<p align="center">
+  <a href="https://usecase-telco-churn-prediction-latest.onrender.com/churn-predictor_demo_cap-ia/">
+    <img src="https://img.shields.io/badge/🚀_Launch_the_App-0078D4?style=for-the-badge"
+         alt="Launch the App" height="32">
+  </a>
+</p>
+
+<p align="center">
+  <sub>Click above to access the interactive application</sub>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Gradio-F97316?style=flat-square&logo=gradio&logoColor=white" alt="Gradio">
   <img src="https://img.shields.io/badge/LightGBM-167D5A?style=flat-square" alt="LightGBM">
-  <img src="https://img.shields.io/badge/Optuna-1C6DBA?style=flat-square&amp;logo=optuna&amp;logoColor=white" alt="Optuna">
-  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&amp;logo=mlflow&amp;logoColor=white" alt="MLflow">
+  <img src="https://img.shields.io/badge/Optuna-1C6DBA?style=flat-square&logo=optuna&logoColor=white" alt="Optuna">
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=flat-square&logo=mlflow&logoColor=white" alt="MLflow">
   <img src="https://img.shields.io/badge/MLOps-334155?style=flat-square" alt="MLOps">
-  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&amp;logo=pytest&amp;logoColor=white" alt="pytest">
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&amp;logo=githubactions&amp;logoColor=white" alt="GitHub Actions">
-  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&amp;logo=plotly&amp;logoColor=white" alt="Plotly">
+  <img src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white" alt="pytest">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white" alt="Plotly">
   <img src="https://img.shields.io/badge/SHAP-7B61FF?style=flat-square" alt="SHAP">
 </p>
 
